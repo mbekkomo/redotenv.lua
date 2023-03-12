@@ -1,4 +1,4 @@
-i--[[lit-meta
+--[[lit-meta
 name = "UrNightmaree/redotenv"
 version = "0.1"
 dependencies = {}

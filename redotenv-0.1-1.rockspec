@@ -11,6 +11,6 @@ description = {
 build = {
    type = "builtin",
    modules = {
-      package = "package.lua"
+      package = "redotenv.lua"
    }
 }
