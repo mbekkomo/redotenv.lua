@@ -1,3 +1,14 @@
+i--[[lit-meta
+name = "UrNightmaree/redotenv"
+version = "0.1"
+dependencies = {}
+description = "An optimized .env parser for Lua"
+tags = { "lua", "lit", "luvit", "dotenv", "parser" }
+license = "MIT"
+author = { name = "UrNightmaree", email = "afiqquraisyzulkarnain@gmail.com" }
+homepage = "https://github.com/UrNightmaree/redotenv.lua"
+]]
+
 local open = io.open
 
 ---@param func string
@@ -89,5 +100,5 @@ end
 return {
     parse = redotenv_parse,
     load = redotenv_load,
-    _VERSION = "redotenv 0.1-dev"
+    _VERSION = "redotenv 0.1"
 }
