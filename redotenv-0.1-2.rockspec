@@ -15,6 +15,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      redotenv = "redotenv.lua"
+      ["redotenv"] = "redotenv.lua"
    }
 }
